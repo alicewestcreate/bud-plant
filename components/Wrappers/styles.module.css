@@ -1,0 +1,98 @@
+.contentWrapper {
+    /* The wrap between the content inside and the container on the outside */
+    height: 100%;
+    width: 100%;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+.imageWrapper {
+    /* Wraps images  */
+    flex: 2;
+    order: 1;
+}
+
+
+.cardWrapper {
+    /* wrapper for the card element*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    order: 2;
+    margin: .2rem;
+    margin-top: -150%;
+    background-color: white;
+    opacity: 0.9;
+    border-radius: 1rem;
+    
+}
+
+.card {
+    /* card element to hold text and button wrappers  */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 3rem;
+
+    align-content: flex-end;
+    justify-content: flex-end;
+
+    opacity: 1;
+    padding: 2rem;
+    min-height: fit-content;
+    min-width: fit-content;
+}
+
+.textwrapper { 
+    /* wraps text elements only */
+    display: flex;
+    flex-direction: column;
+}
+
+
+.buttonWrapper {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    row-gap: 1rem;
+}
+
+
+
+
+#plantImage {
+    height:100vw;
+}
+
+
+
+@media only screen and (min-width: 769px) and (orientation: landscape) {
+    .contentWrapper {
+        flex-direction: row;
+    }
+
+    .imageWrapper {
+        /* Wraps images  */
+        background-color: black;
+        flex: 1;
+        order: 1;
+    }
+
+    .cardWrapper {
+        /* wraps inner level information into a card */
+        background-color: white;
+        margin-top: 0;
+        flex: 1;
+        order: 2;
+    }
+    .card {
+        min-width: 385px;
+        width: 30rem;
+
+    }
+
+}

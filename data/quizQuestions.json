@@ -1,0 +1,90 @@
+[
+    {
+        "number": 1,
+        "question": "Will you leave me high and dry or keep me hydrated and thriving?",
+        "img": "waterGods.webp",
+        "filter": {
+            "left": {
+                "btnTxt": "high & dry",
+                "property": "Watering",
+                "searchVal": [
+                    "Must dry between watering & Water only when dry",
+                    "Water only when dry & Must dry between watering",
+                    "Keep moist between watering & Can dry between watering",
+                    "Water when soil is half dry & Can dry between watering",
+                    "Water when soil is half dry & Water only when dry",
+                    "Can dry between watering & Water when soil is half dry"
+                ],
+                "feature": "Drought Forgiving"
+            },
+            "right": {
+                "btnTxt": "hydrated & thriving",
+                "property": "Watering",
+                "searchVal": [
+                    "Keep moist between watering & Water when soil is half dry",
+                    "Water when soil is half dry & Change water regularly in the cup",
+                    "Change water regularly in the cup & Water when soil is half dry",
+                    "Keep moist between watering & Must not dry between watering"
+                ],
+                "feature": "H20 Dependant"
+            }
+        }
+    },
+    {
+        "number": 2,
+        "question": "Are you a bonsai wizard or do you just dabble in basic pruning?",
+        "img": "waterGods.webp",
+        "filter": {
+            "left": {
+                "btnTxt": "bonsai wizard",
+                "property": "Pruning",
+                "searchVal": ["After blooming", "Fall"],
+                "feature": "Regular Pruning"
+            },
+            "right": {
+                "btnTxt": "basic pruner ",
+                "property": "Pruning",
+                "searchVal": ["If needed", "Never"],
+                "feature": "Limited Pruning"
+            }
+        }
+    },
+    {
+        "number": 3,
+        "question": "Is my new spot going to be a sun-worshipper's paradise or a chill oasis in the shade?",
+        "img": "waterGods.webp",
+        "filter": {
+            "left": {
+                "btnTxt": "sunny paradise",
+                "property": "Light ideal",
+                "searchVal": [ "Strong light ( 21,500 to 3,200 lux/2000 to 300 fc)", "Full sun (+21,500 lux /+2000 fc )"],
+                "feature": "Sun Worshipper"
+            },
+            "right": {
+                "btnTxt": "shade oasis",
+                "property": "Light tolered",
+                "searchVal": ["Diffuse light ( Less than 5,300 lux / 500 fc)", "Strong light ( 21,500 to 3,200 lux/2000 to 300 fc)"],
+                "feature": "Shade Seeker"
+            }
+        }
+    },
+    {
+        "number": 4,
+        "question": "Will the moisture levels be a lush tropical rainforest, or should I brace myself for minimal misting?",
+        "img": "waterGods.webp",
+        "filter": {
+            "left": {
+                "btnTxt": "tropical rainforest",
+                "property": "Climat",
+                "searchVal": ["Tropical", "Subtropical", "Tropical humid", "Tropical to subtropical"],
+                "feature": "Regular Misting  "
+            },
+            "right": {
+                "btnTxt": "minimal misting",
+                "property": "Climat",
+                "searchVal": ["Arid Tropical", "Subtropical arid"],
+                "feature": "Minimal Misting"
+            }
+        }
+    }
+]

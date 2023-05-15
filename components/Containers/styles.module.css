@@ -1,0 +1,19 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+
+}
+
+
+#quiz {
+    overflow: hidden;
+}
+
+#results {
+    overflow: hidden;
+}
+
+#preResults {
+    background-color: aqua;
+}
